@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Webpage Design</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <style>
+
+            /* styling navlist */
+            #navlist {
+                background-color: #0074D9;
+                position: absolute;
+                width: 100%;
+            }
+              
+            /* styling navlist anchor element */
+            #navlist a {
+                float:left;
+                display: block;
+                color: #f2f2f2;
+                margin-left: 30px;
+                text-align: center;
+                padding: 10px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            .navlist-right{
+                float:right;
+            }
+      
+            /* hover effect of navlist anchor element */
+            #navlist a:hover {
+                background-color: #ddd;
+                color: rgb(228, 72, 10);
+            }
+              
+            /* styling search bar */
+            .search input[type=text]{
+                width:300px;
+                height:25px;
+                border-radius:25px;
+                border: none;
+      
+            }
+              
+            .search{
+                float:right;
+                margin:7px;
+      
+            }
+              
+            .search button{
+                background-color: #0074D9;
+                color: #f2f2f2;
+                float: right;
+                padding: 5px 10px;
+                margin-right: 16px;
+                font-size: 12px;
+                border: none;
+                cursor: pointer;
+            } 
+            
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #ddd;
+  color: rgb(228, 72, 10);
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:#0074D9;
+  color: rgb(228, 72, 10);
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.about-section {
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 150px;
+  color: black;
+}
+
+        </style>
+    </head>
+    <body background="new4.jpg">
+          <div id="navlist">
+            <a class="active" href="#home">Home</a>
+            <div class="subnav">
+                <button class="subnavbtn">Our Products <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                  <a href="#ms and ss machine screw">MS and SS MACHINE SCREW</a>
+                  <a href="#ms and ss self tapping screw">MS and SS SELF MACHINE SCREW</a>
+                </div>
+              </div>
+
+              <div class="subnav">
+                <button class="subnavbtn">Contact Us <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                  <a href="#9420646764, 8983885196">9420646764, 8983885196</a>
+                  <a href="#badgeindustries@gmail.com">badgeindustries@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="subnav">
+                <button class="subnavbtn">Address <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                  <a href="#m-105, midc, jalgaon">M-105, MIDC, JALGAON</a>
+                </div>
+              </div>
+
+               <!-- search bar right align -->
+        <div class="search">
+            <form action="#">
+                <input type="text"
+                    placeholder=" Type to Search"
+                    name="search">
+                <button>
+                    <i class="fa fa-search"
+                        style="font-size: 20px;">
+                    </i>
+                </button>
+            </form>
+        </div>
+            </div>
+
+        <!-- who we are -->
+        <div class="about-section">
+            <h1>Badge Industries</h1>
+            <p> Industrial Fasteners (Screw) Manufacturer</p>
+            <p>Established by "Badge Brothers" with a vision to provide high quality screws to industries.</p>
+            <p></p>
+          </div>
+
+          
+           
+    </body>
+</html>
